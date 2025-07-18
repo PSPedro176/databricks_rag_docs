@@ -1,5 +1,7 @@
 # Databricks docs RAG Agent integrated with Slack
 This is a RAG agent that uses Databricks tools like Vector Search, Model Serving and Databricks Apps to create a Slack Bot that answers Databricks questions based on the official docs. A few of the configurations involve UI interactions in Slack and Databricks, but each step is documented here.
+<br><br>
+<img src="https://github.com/PSPedro176/databricks_rag_docs/blob/rag_bot/images/architecture?raw=true" width="1000px" style="float:right"/>
 ### Creating the RAG Agent
 1. Define a target catalog and schema to the project, and save the names in the variables `CATALOG` and `SCHEMA` in the script `create_configs`
 2. Execute the job `databricks_docs_update`: `create_configs` -> `update_docs` -> `embedding_config` -> `deploy_model`
