@@ -1,0 +1,12 @@
+command:
+- python
+- bot.py
+env:
+  - name: BOT_TOKEN
+    value: xoxb-token
+  - name: SIGN_SECRET
+    value: sign_secret
+  - name: APP_TOKEN
+    value: xapp-token
+  - name: RAG_ENDPOINT_NAME
+    value: rag-endpoint-name
